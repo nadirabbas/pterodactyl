@@ -26,5 +26,11 @@ services:
       # Required for ssl if you use let's encrypt. uncomment to use.
       #- "/etc/letsencrypt/:/etc/letsencrypt/"
 networks:
-  default:
-      name: main
+  wings0:
+    name: wings0
+    driver: bridge
+    ipam:
+      config:
+        - subnet: "172.21.0.0/16"
+    driver_opts:
+      com.docker.network.bridge.name: wings0

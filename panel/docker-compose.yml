@@ -63,4 +63,6 @@ services:
       DB_PORT: "3306"
 networks:
   default:
-      name: main
+    ipam:
+      config:
+        - subnet: 172.20.0.0/16
