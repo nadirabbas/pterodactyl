@@ -12,7 +12,7 @@ services:
       TZ: "Asia/Karachi"
       WINGS_UID: 988
       WINGS_GID: 988
-      WINGS_USERNAME: nadir2k
+      WINGS_USERNAME: ubuntu
     volumes:
       - "/var/run/docker.sock:/var/run/docker.sock"
       - "/var/lib/docker/containers/:/var/lib/docker/containers/"
