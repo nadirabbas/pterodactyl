@@ -7,7 +7,6 @@ services:
     ports:
       - "8081:8081"
       - "2022:2022"
-      - "25565:25565"
     tty: true
     environment:
       TZ: "Asia/Karachi"
