@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   wings:
-    image: ghcr.io/pterodactyl/wings:v1.6.1
+    image: ghcr.io/pterodactyl/wings:v1.6.1@sha256:5fe2e4425f8b256cf3eb3e123d6043d641d95eef9a99f1772e5fb46435070645
     restart: always
     ports:
       - "8081:8081"
